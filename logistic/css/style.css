@@ -5757,6 +5757,7 @@ ul.latest_news li a:focus+span.defaultcolor {
     }
     .container {
         max-width: 98% !important;
+        text-align: center;
     }
     .profile .p_pic,
     .profile .profile_text {
@@ -5863,10 +5864,22 @@ ul.latest_news li a:focus+span.defaultcolor {
     height: 320px;
     width: fit-content !important;
 }
+.cedac-banner{
+    background-image: url('/logistic/images/magics-cedac-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* Blog */
 .blog-image{
     height: 230px !important;
     object-fit: cover
+}
+.blog-bg{
+    background-image: url('/logistic/images/magics-blog-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* PRE-HEADER */
@@ -5888,6 +5901,132 @@ ul.latest_news li a:focus+span.defaultcolor {
 /* AKSAM */
 .aksam-image{
     width:  300px;
-    height: 300px;
+    height: 400px;
     object-fit: cover;
+    background-size: cover;
+}
+.bg-aksam{
+    background-image: url('/logistic/images/magics-aksam-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Community Health Services */
+.communityhealth-banner{
+    background-image: url('/logistic/images/magics-communityhealth-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Consulting services */
+.consultancy-bg{
+    background-image: url('/logistic/images/magics-conusulting-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Dementia Friendly */
+.dementia-bg{
+    background-image: url('/logistic/images/magics-dementia-banner.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* G-Tourism*/
+.tourism-bg{
+    background-image: url('/logistic/images/magics-tourism-banner.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Gender matters */
+.gender-bg{
+    background-image: url('/logistic/images/magics-gender-banner.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Happiness and Wellbeing */
+.happiness-bg{
+    background-image: url('/logistic/images/magics-happiness-banner.jpg');
+    background-position: bottom !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Research and developement */
+.research-bg{
+    background-image: url('/logistic/images/magics-research-banner.jpg');
+    background-position: bottom !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Respect Age */
+.age-bg{
+    background-image: url('/logistic/images/magics-age-banner.jpg');
+    background-position: bottom !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Respire Wellness */
+.respire-bg{
+    background-image: url('/logistic/images/magics-respire-banner.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Services */
+.service-bg{
+    background-image: url('/logistic/images/magics-services-banner.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Smrithiyoram */
+.Smrithiyoram-bg{
+    background-image: url('/logistic/images/magics-smrithiyoram-banner.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Services */
+.service-images{
+    height: 300px !important;
+    object-fit: cover;
+    width: 330px !important;
+    margin: auto;
+}
+
+/* Vayoprathibha */
+.Vayoprathibha-bg{
+    background-image: url('/logistic/images/magics-vayoprathibha-banner.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Vayosmitham */
+.Vayosmitham-bg{
+    background-image: url('/logistic/images/magics-vayosmitham-banner.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Yuvavigyan */
+.Yuvavigyan-bg{
+    background-image: url('/logistic/images/magics-yuvavigyan-banner.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
