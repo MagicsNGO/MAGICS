@@ -6009,7 +6009,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Vayoprathibha */
 .Vayoprathibha-bg{
-    background-image: url('/logistic/images/magics-vayoprathibha-banner.jpg');
+    background-image: url('./logistic/images/magics-vayoprathibha-banner.jpg');
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6017,7 +6017,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Vayosmitham */
 .Vayosmitham-bg{
-    background-image: url('/logistic/images/magics-vayosmitham-banner.jpg');
+    background-image: url('./logistic/images/magics-vayosmitham-banner.jpg');
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
