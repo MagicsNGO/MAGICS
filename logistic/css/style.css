@@ -5906,7 +5906,8 @@ ul.latest_news li a:focus+span.defaultcolor {
     background-size: cover;
 }
 .bg-aksam{
-    background-image: url('logistic/images/magics-aksam-banner.jpg') !important;
+    /* background-image: url('logistic/images/magics-aksam-banner.jpg') !important; */
+    background-color: #0077B5 !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
