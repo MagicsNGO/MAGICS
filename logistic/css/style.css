@@ -5915,7 +5915,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 /* Community Health Services */
 .communityhealth-banner{
     /* background-image: url('logistic/images/magics-communityhealth-banner.jpg') !important; */
-    background-color: #0077B5;
+    background-color: #0077B5 !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
