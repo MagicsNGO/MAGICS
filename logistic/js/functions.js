@@ -756,10 +756,16 @@ jQuery($=> {
 
     /*Our Team*/
     $("#ourteam-slider").owlCarousel({
-        items: 4,
-        margin: 0,
-        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        smartSpeed: 1200,
+        loop: true,
         nav: false,
+        navText: false,
+        dots: false,
+        mouseDrag: true,
+        touchDrag: true,
         responsive: {
             1280: {
                 items: 4,

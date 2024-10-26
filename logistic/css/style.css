@@ -6031,3 +6031,10 @@ ul.latest_news li a:focus+span.defaultcolor {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Team Section */
+.team-image{
+    height: 300px;
+    object-fit: contain;
+    width: auto;
+}
