@@ -5985,7 +5985,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Services */
 .service-bg{
-    background-image: url('logistic/images/magics-services-banner.jpg') !important;
+    background-image: url('logistic/images/magics-services-banner.jpg') ;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
