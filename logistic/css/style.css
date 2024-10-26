@@ -2364,9 +2364,9 @@ a.dropdown-toggle::after {
     background: url(../images/bg-service-header.jpg) no-repeat;
 }
 
-.service-detail-header {
+/* .service-detail-header {
     background: url(../images/bg-service-detail-header.jpg) no-repeat;
-}
+} */
 
 .contact-header {
     background: url(../images/bg-contact-header.jpg) no-repeat;
@@ -5906,8 +5906,8 @@ ul.latest_news li a:focus+span.defaultcolor {
     background-size: cover;
 }
 .bg-aksam{
-    /* background-image: url('logistic/images/magics-aksam-banner.jpg') !important; */
-    background-color: #0077B5 !important;
+    background-image: url('logistic/images/magics-aksam-banner.jpg') !important;
+    /* background-color: #0077B5 !important; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5986,7 +5986,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Services */
 .service-bg{
-    background-image: url('logistic/images/magics-services-banner.jpg') ;
+    background-image: url('logistic/images/magics-services-banner.jpg') !important ;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
