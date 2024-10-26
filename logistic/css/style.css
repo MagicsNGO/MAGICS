@@ -5865,7 +5865,7 @@ ul.latest_news li a:focus+span.defaultcolor {
     width: fit-content !important;
 }
 .cedac-banner{
-    background-image: url('/logistic/images/magics-cedac-banner.jpg') !important;
+    background-image: url('logistic/images/magics-cedac-banner.jpg') !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5876,7 +5876,7 @@ ul.latest_news li a:focus+span.defaultcolor {
     object-fit: cover
 }
 .blog-bg{
-    background-image: url('/logistic/images/magics-blog-banner.jpg') !important;
+    background-image: url('logistic/images/magics-blog-banner.jpg') !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5906,7 +5906,7 @@ ul.latest_news li a:focus+span.defaultcolor {
     background-size: cover;
 }
 .bg-aksam{
-    background-image: url('/logistic/images/magics-aksam-banner.jpg') !important;
+    background-image: url('logistic/images/magics-aksam-banner.jpg') !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5914,7 +5914,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Community Health Services */
 .communityhealth-banner{
-    background-image: url('/logistic/images/magics-communityhealth-banner.jpg') !important;
+    background-image: url('logistic/images/magics-communityhealth-banner.jpg') !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5922,7 +5922,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Consulting services */
 .consultancy-bg{
-    background-image: url('/logistic/images/magics-conusulting-banner.jpg') !important;
+    background-image: url('logistic/images/magics-conusulting-banner.jpg') !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5930,7 +5930,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Dementia Friendly */
 .dementia-bg{
-    background-image: url('/logistic/images/magics-dementia-banner.jpg') !important;
+    background-image: url('logistic/images/magics-dementia-banner.jpg') !important;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5938,7 +5938,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* G-Tourism*/
 .tourism-bg{
-    background-image: url('/logistic/images/magics-tourism-banner.jpg') !important;
+    background-image: url('logistic/images/magics-tourism-banner.jpg') !important;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5946,7 +5946,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Gender matters */
 .gender-bg{
-    background-image: url('/logistic/images/magics-gender-banner.jpg') !important;
+    background-image: url('logistic/images/magics-gender-banner.jpg') !important;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5954,7 +5954,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Happiness and Wellbeing */
 .happiness-bg{
-    background-image: url('/logistic/images/magics-happiness-banner.jpg') !important;
+    background-image: url('logistic/images/magics-happiness-banner.jpg') !important;
     background-position: bottom !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5962,7 +5962,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Research and developement */
 .research-bg{
-    background-image: url('/logistic/images/magics-research-banner.jpg') !important;
+    background-image: url('logistic/images/magics-research-banner.jpg') !important;
     background-position: bottom !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5970,14 +5970,14 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Respect Age */
 .age-bg{
-    background-image: url('/logistic/images/magics-age-banner.jpg') !important;
+    background-image: url('logistic/images/magics-age-banner.jpg') !important;
     background-position: bottom !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
 /* Respire Wellness */
 .respire-bg{
-    background-image: url('/logistic/images/magics-respire-banner.jpg') !important;
+    background-image: url('logistic/images/magics-respire-banner.jpg') !important;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5985,7 +5985,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Services */
 .service-bg{
-    background-image: url('/logistic/images/magics-services-banner.jpg') !important;
+    background-image: url('logistic/images/magics-services-banner.jpg') !important;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5993,7 +5993,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Smrithiyoram */
 .Smrithiyoram-bg{
-    background-image: url('/logistic/images/magics-smrithiyoram-banner.jpg') !important;
+    background-image: url('logistic/images/magics-smrithiyoram-banner.jpg') !important;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6009,7 +6009,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Vayoprathibha */
 .Vayoprathibha-bg{
-    background-image: url('./logistic/images/magics-vayoprathibha-banner.jpg') !important;
+    background-image: url('logistic/images/magics-vayoprathibha-banner.jpg') !important;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6017,7 +6017,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Vayosmitham */
 .Vayosmitham-bg{
-    background-image: url('./logistic/images/magics-vayosmitham-banner.jpg') !important;
+    background-image: url('logistic/images/magics-vayosmitham-banner.jpg') !important;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6025,7 +6025,7 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 /* Yuvavigyan */
 .Yuvavigyan-bg{
-    background-image: url('/logistic/images/magics-yuvavigyan-banner.jpg') !important;
+    background-image: url('logistic/images/magics-yuvavigyan-banner.jpg') !important;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
