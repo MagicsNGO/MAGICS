@@ -756,6 +756,7 @@ jQuery($=> {
 
     /*Our Team*/
     $("#ourteam-slider").owlCarousel({
+        items: 6,
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
