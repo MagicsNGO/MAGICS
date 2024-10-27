@@ -78,7 +78,7 @@ body {
     overflow-x: hidden;
     direction: ltr;
     line-height: 1.5;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 ::selection{
     background: rgba(255, 185, 2, 0.63) !important;
