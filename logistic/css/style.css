@@ -69,12 +69,14 @@
 
 /*Global Styling*/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800|Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 body {
     font-size: 15px;
     color: #808080;
-    font-weight: normal;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
     overflow-x: hidden;
     direction: ltr;
     line-height: 1.5;
