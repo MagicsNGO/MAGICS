@@ -5902,12 +5902,12 @@ ul.latest_news li a:focus+span.defaultcolor {
 
 }
 /* AKSAM */
-.aksam-image{
-    width:  300px;
-    height: 400px;
-    object-fit: cover;
-    background-size: cover;
-}
+.aksam-image,.magics-communityhealthservices-image,.magics-respectage-image,.magics-smrithiyoram-image,.magics-gtourism-image,.magics-vayoprathibha-image{
+    width:  100px;
+    height: 300px;
+     object-fit: cover;
+    /* background-size: cover; */
+} */
 .bg-aksam{
     background-image: url('../images/magics-aksam-banner.jpg') !important;
     /* background-color: #0077B5 !important; */
