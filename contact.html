@@ -172,7 +172,7 @@
                         <li><a href="https://www.linkedin.com/company/magics-ngo/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i> </a> </li>
                         <li><a href="https://www.instagram.com/ngomagics/?hl=en" target="_blank" class="insta"><i class="fab fa-instagram"></i> </a> </li>
                         <li><a href="https://youtube.com/@magicsngo6589?si=IEY03vPpbkf3LPdy" class="youtube"><i class="fab fa-youtube"></i> </a> </li>
-                            <li><a href="javascript:void(0)" class="whatsapp"><i class="fab fa-whatsapp"></i> </a> </li>
+                            <li><a href="javascript:void(0)" class="whatsapp"><i class="fab fa-whatsapp" onclick="openWhatsApp()"></i> </a> </li>
                             <li><a href="mailto:ngomagics@gmail.com"><i class="far fa-envelope"></i> </a> </li>
                         </ul>
                     </div>
@@ -248,6 +248,7 @@
         </div> -->
     </div>
 </section>
+
 <!-- Contact US ends -->
 <!-- Contact US -->
 <!-- <section id="stayconnect" class="bglight position-relative">
@@ -387,5 +388,13 @@
 <script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
 <!--custom functions and script-->
 <script src="logistic/js/functions.js"></script>
+<script>
+    function openWhatsApp() {
+        const phoneNumber = "7907740474"; // Replace with the desired phone number
+        const message = "Hello! I’d like to chat with you."; // Optional pre-filled message
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(url, "_blank");
+    }
+    </script>
 </body>
 </html>
