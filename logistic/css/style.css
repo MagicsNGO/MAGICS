@@ -6041,5 +6041,10 @@ ul.latest_news li a:focus+span.defaultcolor {
     object-fit: contain;
     width: auto;
 }
+.news-image{
+    height: 300px;
+    object-position: center;
+    object-fit: cover;
+}
 
 

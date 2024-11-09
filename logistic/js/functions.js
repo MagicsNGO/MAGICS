@@ -1264,37 +1264,46 @@ jQuery($=> {
 
 // JavaScript to enlarge images on click with a lightbox effect
 document.addEventListener('click', function(event) {
-    // Check if the clicked element is an image
-    if (event.target.tagName === 'IMG') {
-      // Create an overlay div if it does not already exist
-      let overlay = document.getElementById('lightboxOverlay');
-      if (!overlay) {
-        overlay = document.createElement('div');
-        overlay.id = 'lightboxOverlay';
-        overlay.style.position = 'fixed';
-        overlay.style.top = '0';
-        overlay.style.left = '0';
-        overlay.style.width = '100%';
-        overlay.style.height = '100%';
-        overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    // Check if the clicked element is an image with the 'magics-img' class
+    if (event.target.classList.contains('magics-img')) {
+        // Create overlay div if it doesn't exist
+        let overlay = document.getElementById('lightboxOverlay');
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'lightboxOverlay';
+            overlay.style.position = 'fixed';
+            overlay.style.top = '0';
+            overlay.style.left = '0';
+            overlay.style.width = '100%';
+            overlay.style.height = '100%';
+            overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+            overlay.style.display = 'flex';
+            overlay.style.alignItems = 'center';
+            overlay.style.justifyContent = 'center';
+            overlay.style.zIndex = '1000';
+            overlay.style.cursor = 'pointer';
+
+            // Append overlay to the body
+            document.body.appendChild(overlay);
+
+            // Close the overlay when clicking outside the image
+            overlay.addEventListener('click', function(event) {
+                if (event.target === overlay) {
+                    overlay.style.display = 'none';
+                }
+            });
+        }
+
+        // Set the clicked image as the full-view image in the overlay
+        overlay.innerHTML = `<img src="${event.target.src}" style="max-width: 90%; max-height: 90%; box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);">`;
         overlay.style.display = 'flex';
-        overlay.style.alignItems = 'center';
-        overlay.style.justifyContent = 'center';
-        overlay.style.zIndex = '1000';
-        overlay.style.cursor = 'pointer';
-  
-        // Close the overlay when clicked
-        overlay.addEventListener('click', function() {
-          overlay.style.display = 'none';
-        });
-  
-        // Append the overlay to the body
-        document.body.appendChild(overlay);
-      }
-  
-      // Set the clicked image as the full-view image in the overlay
-      overlay.innerHTML = `<img src="${event.target.src}" style="max-width: 90%; max-height: 90%; box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);">`;
-      overlay.style.display = 'flex';
     }
-  });
-  
+});
+
+// Close the overlay with the "Escape" key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        const overlay = document.getElementById('lightboxOverlay');
+        if (overlay) overlay.style.display = 'none';
+    }
+});
