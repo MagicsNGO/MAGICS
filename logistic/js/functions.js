@@ -1307,3 +1307,10 @@ document.addEventListener('keydown', function(event) {
         if (overlay) overlay.style.display = 'none';
     }
 });
+$(window).on("load", function() {
+    setTimeout(function() {
+        $('.loader').fadeOut('slow', function() {
+            $('.main-content').fadeIn('slow');
+        });
+    }, 7000); // Delay in milliseconds before the loader disappears
+});
