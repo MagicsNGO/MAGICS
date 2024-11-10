@@ -6019,6 +6019,14 @@ ul.latest_news li a:focus+span.defaultcolor {
     background-size: cover;
 }
 
+/* Virtual Reality */
+.vr-bg{
+    background-image: url('../images/virtualreality-magics-banner.png') !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Vayosmitham */
 .Vayosmitham-bg{
     background-image: url('../images/magics-vayosmitham-banner.jpg') !important;
@@ -6026,6 +6034,7 @@ ul.latest_news li a:focus+span.defaultcolor {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 /* Yuvavigyan */
 .Yuvavigyan-bg{

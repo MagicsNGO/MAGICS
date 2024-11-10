@@ -1314,3 +1314,22 @@ $(window).on("load", function() {
         });
     }, 7000); // Delay in milliseconds before the loader disappears
 });
+
+//remove html extension
+document.addEventListener("DOMContentLoaded", function() {
+    // Select all anchor tags
+    const links = document.querySelectorAll("a");
+
+    links.forEach(link => {
+        // Check if link ends with .html
+        if (link.href.endsWith(".html")) {
+            // Remove .html extension
+            link.href = link.href.slice(0, -5);
+        }
+    });
+    
+    // Handling page load with .html removed
+    if (window.location.pathname.endsWith(".html")) {
+        window.history.replaceState({}, document.title, window.location.pathname.slice(0, -5) + window.location.search);
+    }
+});
