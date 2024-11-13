@@ -1331,7 +1331,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-if (window.location.pathname.endsWith("index.html")) {
+if (window.location.pathname.endsWith("index")) {
   window.location.replace(window.location.origin + window.location.pathname.replace("index.html", ""));
 }
 
