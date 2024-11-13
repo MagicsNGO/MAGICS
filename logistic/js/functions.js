@@ -1312,7 +1312,13 @@ $(window).on("load", function() {
         $('.loader').fadeOut('slow', function() {
             $('.main-content').fadeIn('slow');
         });
-    }, 7000); // Delay in milliseconds before the loader disappears
+    }, 7000);
+    // Delay in milliseconds before the loader disappears
+    // Redirect if the URL is "/index" to "/"
+if (window.location.pathname === "/index" || window.location.pathname === "/index.html") {
+  window.location.replace(window.location.origin + "/");
+}
+
 });
 
 //remove html extension
@@ -1331,7 +1337,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-if (window.location.pathname.endsWith("index")) {
-  window.location.replace(window.location.origin + window.location.pathname.replace("index.html", ""));
-}
+
 
