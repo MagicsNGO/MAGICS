@@ -194,32 +194,41 @@
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="heading-title  wow fadeInUp" data-wow-delay="300ms">
-                        <form action="https://formsubmit.co/dec5b96906f9ef545953068f4a79eab2" method="POST" onsubmit="window.location.href = 'https://gayathri282.github.io/Magics-ngo/contact.html'">
+                        <form action="https://formsubmit.co/dec5b96906f9ef545953068f4a79eab2" method="POST" id="contactForm">
                             <div class="row px-2">
-                                <div class="col-md-12 col-sm-12" id="result"></div>
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="form-group">
-                                        <label for="name1" class="d-none"></label>
-                                        <input class="form-control" id="name1" type="text" placeholder="Name:" required  name="userName">
-                                    </div>
+                              <div class="col-md-12 col-sm-12" id="result"></div>
+                              <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                  <label for="name1" class="d-none"></label>
+                                  <input class="form-control" id="name1" type="text" placeholder="Name:" required name="userName">
                                 </div>
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="form-group">
-                                        <label for="email1" class="d-none"></label>
-                                        <input class="form-control" type="email" id="email1" placeholder="Email:" name="userEmail">
-                                    </div>
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                  <label for="email1" class="d-none"></label>
+                                  <input class="form-control" type="email" id="email1" placeholder="Email:" name="userEmail" required>
                                 </div>
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="form-group">
-                                        <label for="message1" class="d-none"></label>
-                                        <textarea class="form-control" id="message1" placeholder="Message:" required  name="userMessage"></textarea>
-                                    </div>
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                  <label for="message1" class="d-none"></label>
+                                  <textarea class="form-control" id="message1" placeholder="Message:" required name="userMessage"></textarea>
                                 </div>
-                                <div class="col-md-12 col-sm-12">
-                                    <button type="submit" id="submit" class="contact_btn button gradient-btn w-100">Send</button>
-                                </div>
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                <button type="submit" id="submit" class="contact_btn button gradient-btn w-100">Send</button>
+                              </div>
                             </div>
-                        </form>
+                          </form>
+                          
+                          <script>
+                            document.getElementById("contactForm").addEventListener("submit", function(event) {
+                              setTimeout(function() {
+                                window.location.href = "https://gayathri282.github.io/Magics-ngo/contact.html";
+                              }, 500); // Delay redirect to allow form submission
+                            });
+                          </script>
+                          
                     </div>
                 </div>
             </div>
