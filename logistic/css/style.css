@@ -2049,7 +2049,8 @@ a.dropdown-toggle::after {
         padding: 2rem 2.5rem;
     }
     .side-nav .navbar-nav .nav-link {
-        font-size: 1.125rem;
+        font-size: 1.5rem;
+        font-weight: bold;
     }
     .sideNavPages .nav-link {
         font-size: 1rem !important;
@@ -6131,4 +6132,7 @@ ul.latest_news li a:focus+span.defaultcolor {
     }
 }
 
+.text-3{
+    font-size: 13px !important;
+}
 
