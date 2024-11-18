@@ -736,11 +736,11 @@ section,
     bottom: 20px;
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
-    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -o-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: linear-gradient(to right, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
+    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -o-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: linear-gradient(to right, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     -o-transform: scale(0);
@@ -1038,11 +1038,11 @@ ul.social-icons.white li a:focus {
 .gradient-btn {
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
-    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -o-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: linear-gradient(to right, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
+    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -o-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: linear-gradient(to right, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
     color: #fff;
 }
 
@@ -1146,11 +1146,11 @@ ul.social-icons.white li a:focus {
     display: inline-block;
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
-    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -o-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: linear-gradient(to right, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
+    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -o-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: linear-gradient(to right, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
     position: absolute;
     left: 0;
     right: 0;
@@ -1652,7 +1652,7 @@ a.dropdown-toggle::after {
 }
 
 .services-main:hover h3 {
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
     background-clip: border-box;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@colorPrimary', endColorstr='@colorSecondary', GradientType=1);
     -webkit-background-clip: text;
@@ -2304,11 +2304,11 @@ a.dropdown-toggle::after {
     transform: scale(.5);
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
-    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -o-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: linear-gradient(to right, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
+    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -o-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: linear-gradient(to right, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
 }
 
 .owl-prev:hover,
@@ -2620,11 +2620,11 @@ iframe {
 .gradient-bg {
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
-    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -o-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: linear-gradient(to right, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
+    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -o-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: linear-gradient(to right, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
 }
 
 #services-slider .owl-item.center .service-box:hover {
@@ -3141,11 +3141,11 @@ iframe {
     -o-transform: translateY(100%);
     transform: translateY(100%);
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
-    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -o-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: linear-gradient(to right, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
+    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -o-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: linear-gradient(to right, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
 }
 
 .team-content p {
@@ -3199,11 +3199,11 @@ iframe {
 .overlay {
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
-    background-image: -webkit-linear-gradient(to right, #00ccffaa 0%, #1ABC9Caa 100%);
-    background-image: -moz-linear-gradient(to right, #00ccffaa 0%, #1ABC9Caa 100%);
-    background-image: -ms-linear-gradient(to right, #00ccffaa 0%, #1ABC9Caa 100%);
-    background-image: -o-linear-gradient(to right, #00ccffaa 0%, #1ABC9Caa 100%);
-    background-image: linear-gradient(to right, #00ccffaa 0%, #1ABC9Caa 100%);
+    background-image: -webkit-linear-gradient(to right, #4771bbaa 0%, #1ABC9Caa 100%);
+    background-image: -moz-linear-gradient(to right, #4771bbaa 0%, #1ABC9Caa 100%);
+    background-image: -ms-linear-gradient(to right, #4771bbaa 0%, #1ABC9Caa 100%);
+    background-image: -o-linear-gradient(to right, #4771bbaa 0%, #1ABC9Caa 100%);
+    background-image: linear-gradient(to right, #4771bbaa 0%, #1ABC9Caa 100%);
     position: absolute;
     opacity: 0;
     visibility: hidden;
@@ -3397,11 +3397,11 @@ iframe {
 .testimonial-wrapp .quoted {
     -webkit-background-size: 100% 100%;
     background-size: 200% 100%;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
-    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -o-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: linear-gradient(to right, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
+    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -o-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: linear-gradient(to right, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
     color: #fff;
     font-size: 20px;
     line-height: 50px;
@@ -3470,11 +3470,11 @@ h4.darkcolor {
     width: 30px;
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
-    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -o-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: linear-gradient(to right, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
+    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -o-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: linear-gradient(to right, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
     -webkit-border-radius: 50%;
     border-radius: 50%;
     z-index: -2;
@@ -4358,7 +4358,7 @@ ul.rounded li::before {
 .heading .divider-center {
     height: 4px;
     width: 70px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
     display: block;
 }
 
@@ -5081,7 +5081,7 @@ form.findus .select:after {
 }
 
 .count_down.animated-gradient p {
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(99%, #00ccff), to(#1ABC9C));
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(99%, #4771bb), to(#1ABC9C));
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -5388,11 +5388,11 @@ ul.count_down.white li p:nth-child(2) {
     z-index: -1;
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #00ccff), to(#1ABC9C));
-    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: -o-linear-gradient(left, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
-    background-image: linear-gradient(to right, #1ABC9C 0%, #00ccff 51%, #1ABC9C 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1ABC9C), color-stop(51%, #4771bb), to(#1ABC9C));
+    background-image: -webkit-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -moz-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: -o-linear-gradient(left, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
+    background-image: linear-gradient(to right, #1ABC9C 0%, #4771bb 51%, #1ABC9C 100%);
     background-position: right center;
 }
 
